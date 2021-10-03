@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+sheet {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+cue {
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 3px double grey;
+}
+
+controls {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  margin: 0px 5px;
+}
+
+open {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  padding: 10px;
+  height: 80vh;
+  width: 80vw;
+  background: white;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 2px;
+  background: #f00;
+  color: white;
+  padding: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.delete-cue, .add-cue {
+  border: none;
+  font-size: 1.1em;
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+.delete-cue {color: #f00;}
+.add-cue {color: #0e0;}
+
+.close-button:hover {background: #e00;}
+.close-button:active {background: #a00;}
+
+.delete-cue:hover {color: #c00;}
+.delete-cue:active {color: #700;}
+
+.add-cue:hover {color: #0c0;}
+.add-cue:active {color: #070;}
+
+.shown {display: block;}
+.hidden {display: none;}
+
+metadata {
+  display: block;
+}
+
+#docTitle::before {content: 'Title: '}
+#docSaved::before {content: 'Saved? '}
+
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  background: white;
+}
+
+tr:nth-child(even) td {
+  background: #ddd;
+}
+
+tr:last-child td {
+  background: #555;
+  color: #0e0;
+}

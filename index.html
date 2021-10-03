@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tech Sheets</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="icon.png" sizes="16x16">
+    <script src="https://kit.fontawesome.com/cb271d7bc9.js"></script>
+  </head>
+  <body>
+    <controls>
+      <button onclick="addCue();"><i class="far fa-plus-square"></i> Add Cue</button>
+      <button onclick="save();"><i class="far fa-save"></i> Save</button>
+      <button onclick="openSheet();"><i class="far fa-folder-open"></i> Open</button>
+      <button onclick="clearItems();"><i class="far fa-trash-alt"></i> Clear Saves</button>
+      <button onclick="newSheet();"><i class="fas fa-plus"></i> New Tech Sheet</button>
+      <button onclick="toggleShow(document.getElementById('character-window'))"><i class="fas fa-users"></i> Characters</button>
+    </controls>
+    <sheet id="sheet">
+      <metadata id="docTitle">Untitled</metadata><metadata id="docSaved">False</metadata>
+    </sheet>
+    <open class="hidden" id="file-window">
+      <h3>Choose a file:</h3>
+      <button class="close-button" onclick="toggleShow(document.getElementById('file-window'))"><i class="far fa-window-close"></i></button>
+      <ul id="file-chooser"></ul>
+    </open>
+    <open class="hidden" id="character-window">
+      <h3>Characters:</h3>
+      <button class="close-button" onclick="toggleShow(document.getElementById('character-window'))"><i class="far fa-window-close"></i></button>
+      <table>
+        <tr>
+          <td contenteditable>Telmah</td>
+          <td><button class="delete-cue" onclick="deleteCharacter(this)"><i class="far fa-window-close"></i></button></td>
+        </tr>
+        <tr>
+          <td>Add Character</td>
+          <td><button class="add-cue" onclick="addCharacter(this)"><i class="far fa-plus-square"></i></button></td>
+        </tr>
+      </table>
+    </open>
+    <script src="script.js"></script>
+  </body>
+</html>
