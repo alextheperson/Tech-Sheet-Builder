@@ -10,7 +10,9 @@ blankCue =
 
 blankMetadata = '<metadata id="docTitle">Untitled</metadata><metadata id="docSaved">False</metadata>'
 
-blankCharacter = '<tr><td contenteditable>Name</td><td><button class="delete-cue" onclick="deleteCharacter(this)"><i class="far fa-window-close"></i></button></td></tr>'
+blankCharacterFirst = '<tr><td contenteditable>'
+blankCharacterSecond = '</td><td><button class="delete-cue" onclick="deleteCharacter(this)"><i class="far fa-window-close"></i></button></td></tr>'
+
 addCharacterMenu = '<tr><td>Add Character</td><td><button class="add-cue" onclick="addCharacter(this)"><i class="far fa-plus-square"></i></button></td></tr>'
 
 characters = ["Alex","Hamlet","Petruchio"]
@@ -121,6 +123,6 @@ function deleteCharacter(self) {
 function addCharacter(self) {
   table = self.parentElement.parentElement.parentElement
   self.parentElement.parentElement.remove();
-  table.innerHTML += blankCharacter;
+  table.innerHTML += blankCharacterFirst + prompt("What is the character's name?") + blankCharacterLast;
   table.innerHTML += addCharacterMenu;
 }
