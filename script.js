@@ -2,7 +2,7 @@ blankCue =
 `<cue>
   <b contenteditable>"Line"</b>
   Enter
-  <button onclick="switchCharacter(this);">Alex</button>
+  <button onclick="switchCharacter(this);">Undefined Character</button>
   From
   <button onclick="switchEntrance(this);">LA</button>
   <button class="delete-cue" onclick="deleteCue(this)"><i class="far fa-window-close"></i></button>
@@ -15,7 +15,7 @@ blankCharacterSecond = '</td><td><button class="delete-cue" onclick="deleteChara
 
 addCharacterMenu = '<tr><td>Add Character</td><td><button class="add-cue" onclick="addCharacter(this)"><i class="far fa-plus-square"></i></button></td></tr>'
 
-characters = ["Alex","Hamlet","Petruchio"]
+characters = []
 entrances = ["LA","RA","UL","UR","RRA","LLA"]
 
 function onBeforeUnload(e) {
@@ -36,6 +36,10 @@ function addCue() {
 function switchCharacter(obj){
   character = characters[characters.indexOf(obj.innerHTML) + 1];
   if (character == undefined) character = characters[0];
+  if (character == undefined) {
+    character = "Undefined Character";
+    alert("No characters defined!");
+  }
   obj.innerHTML = character;
 }
 
@@ -123,6 +127,8 @@ function deleteCharacter(self) {
 function addCharacter(self) {
   table = self.parentElement.parentElement.parentElement
   self.parentElement.parentElement.remove();
-  table.innerHTML += blankCharacterFirst + prompt("What is the character's name?") + blankCharacterLast;
+  let characterName = prompt("What is the character's name?")
+  table.innerHTML += blankCharacterFirst + characterName + blankCharacterSecond;
   table.innerHTML += addCharacterMenu;
+  characters.push(characterName);
 }
