@@ -2,7 +2,7 @@ blankCue =
 `<cue>
   <b contenteditable>"Line"</b>
   Enter
-  <button onclick="switchCharacter(this);">Undefined Character</button>
+  <button onclick="switchCharacter(this);">Press to Select Character</button>
   From
   <button onclick="switchEntrance(this);">LA</button>
   <button class="delete-cue" onclick="deleteCue(this)"><i class="far fa-window-close"></i></button>
@@ -10,8 +10,9 @@ blankCue =
 
 blankMetadata = '<metadata id="docTitle">Untitled</metadata><metadata id="docSaved">False</metadata>'
 
-blankCharacterFirst = '<tr><td contenteditable>'
-blankCharacterSecond = '</td><td><button class="delete-cue" onclick="deleteCharacter(this)"><i class="far fa-window-close"></i></button></td></tr>'
+blankCharacterFirst = '<tr id="'
+blankCharacterSecond = '"><td contenteditable>'
+blankCharacterThird = '</td><td><button class="delete-cue" onclick="deleteCharacter(this)"><i class="far fa-window-close"></i></button></td></tr>'
 
 addCharacterMenu = '<tr><td>Add Character</td><td><button class="add-cue" onclick="addCharacter(this)"><i class="far fa-plus-square"></i></button></td></tr>'
 
@@ -34,13 +35,18 @@ function addCue() {
 }
 
 function switchCharacter(obj){
+  loadCharacters();
   character = characters[characters.indexOf(obj.innerHTML) + 1];
-  if (character == undefined) character = characters[0];
-  if (character == undefined) {
-    character = "Undefined Character";
-    alert("No characters defined!");
+  if (character == undefined || character == '') {
+    character = characters[0];
+    if (character == undefined || character == '') {
+      alert("No characters defined!");
+    } else {
+      obj.innerHTML = character;
+    }
+  } else {
+    obj.innerHTML = character;
   }
-  obj.innerHTML = character;
 }
 
 function switchEntrance(obj){
@@ -92,10 +98,13 @@ function clearItems() {
 function toggleShow(obj) {
   obj.classList.toggle("hidden");
   obj.classList.toggle("shown");
+  loadCharacters();
 }
 
 function openSave(name) {
   document.getElementById("sheet").innerHTML = localStorage.getItem(name);
+  toggleShow(document.getElementById("file-window"));
+  loadCharacters();
 }
 
 function deleteSave(name) {
@@ -114,6 +123,7 @@ function deleteSave(name) {
 
 function newSheet() {
   if (save()) document.getElementById("sheet").innerHTML = blankMetadata;
+  loadCharacters();
 }
 
 function deleteCue(self) {
@@ -121,14 +131,28 @@ function deleteCue(self) {
 }
 
 function deleteCharacter(self) {
+  characters.splice(self.parentElement.parentElement.id, 1)
   self.parentElement.parentElement.remove();
+  saveCharacters();
 }
 
 function addCharacter(self) {
-  table = self.parentElement.parentElement.parentElement
+  table = self.parentElement.parentElement.parentElement;
   self.parentElement.parentElement.remove();
-  let characterName = prompt("What is the character's name?")
-  table.innerHTML += blankCharacterFirst + characterName + blankCharacterSecond;
+  let characterName = prompt("What is the character's name?");
+  table.innerHTML += blankCharacterFirst + characters.length + blankCharacterSecond + characterName + blankCharacterThird;
   table.innerHTML += addCharacterMenu;
   characters.push(characterName);
+  saveCharacters();
+}
+
+function saveCharacters (){
+  localStorage.setItem("charactersNames", characters.join(","));
+  localStorage.setItem("charactersHTML", document.getElementById("character-table").innerHTML);
+}
+
+function loadCharacters (){
+  characters = localStorage.getItem("charactersNames").split(",");
+  document.getElementById("character-table").innerHTML = localStorage.getItem("charactersHTML");
+  characters.shift();
 }

@@ -16,9 +16,9 @@ sheet {
 
 cue {
   display: block;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  border-bottom: 3px double grey;
+  padding: 10px;
+  margin: 10px -10px;
+  border-bottom: 1px solid black;
 }
 
 controls {
