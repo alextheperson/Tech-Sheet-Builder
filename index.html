@@ -10,11 +10,15 @@
   </head>
   <body>
     <controls>
-      <button onclick="addCue();"><i class="far fa-plus-square"></i> Add Cue</button>
       <button onclick="save();"><i class="far fa-save"></i> Save</button>
       <button onclick="openSheet();"><i class="far fa-folder-open"></i> Open</button>
-      <button onclick="clearItems();"><i class="far fa-trash-alt"></i> Clear All Saved Data</button>
       <button onclick="newSheet();"><i class="fas fa-plus"></i> New Tech Sheet</button>
+      <button onclick="toggleShow(document.getElementById('import-window'))"><i class="fas fa-file-import"></i> Import</button>
+      <button onclick="toggleShow(document.getElementById('export-window'))"><i class="fas fa-file-export"></i> Export</button>
+      <button onclick="clearItems();"><i class="far fa-trash-alt"></i> Clear All Saved Data</button>
+    </controls>
+    <controls>
+      <button onclick="addCue();"><i class="far fa-plus-square"></i> Add Cue</button>
       <button onclick="toggleShow(document.getElementById('character-window'))"><i class="fas fa-users"></i> Characters</button>
     </controls>
     <sheet id="sheet">
@@ -38,6 +42,18 @@
           <td><button class="add-cue" onclick="addCharacter(this)"><i class="far fa-plus-square"></i></button></td>
         </tr>
       </table>
+    </open>
+    <open class="hidden" id="export-window">
+      <button onclick="copyText(document.getElementById('export-location'))"><i class="fas fa-copy"></i> Copy Text</button>
+      <button class="close-button" onclick="toggleShow(document.getElementById('export-window'))"><i class="far fa-window-close"></i></button>
+      <pre id="export-location">Yeet</pre>
+    </open>
+    <open class="hidden" id="import-window">
+      <button onclick="importText(document.getElementById('export-location'))"><i class="fas fa-check-circle"></i> Parse Tech Sheet</button>
+      <button onclick="importText(document.getElementById('export-location'))" disabled><i class="fas fa-file-import"></i> Import Tech Sheet</button>
+      <span>No Tech sheet to parse</span>
+      <button class="close-button" onclick="toggleShow(document.getElementById('import-window'))"><i class="far fa-window-close"></i></button>
+      <textarea contenteditable style="margin-top:25px;width:100%;height:calc(100% - 25px);"></textarea>
     </open>
     <script src="script.js"></script>
   </body>

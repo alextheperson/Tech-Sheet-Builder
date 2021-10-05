@@ -103,3 +103,7 @@ tr:last-child td {
   background: #555;
   color: #0e0;
 }
+
+pre {
+  border: 1px solid black;
+}
