@@ -30,7 +30,7 @@ function onBeforeUnload(e) {
 // window.addEventListener('beforeunload', onBeforeUnload);
 // window.addEventListener('beforeclose', onBeforeUnload);
 
-function addCue() {
+function addCue () {
   document.getElementById("sheet").innerHTML += blankCue;
 }
 
@@ -146,13 +146,17 @@ function addCharacter(self) {
   saveCharacters();
 }
 
-function saveCharacters (){
+function saveCharacters(){
   localStorage.setItem("charactersNames", characters.join(","));
   localStorage.setItem("charactersHTML", document.getElementById("character-table").innerHTML);
 }
 
-function loadCharacters (){
+function loadCharacters(){
   characters = localStorage.getItem("charactersNames").split(",");
   document.getElementById("character-table").innerHTML = localStorage.getItem("charactersHTML");
   characters.shift();
+}
+
+function exportSheetHTML(preID) {
+  document.getElementById(preID).innerHTML = document.getElementById("sheet").innerHTML
 }

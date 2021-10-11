@@ -107,3 +107,13 @@ tr:last-child td {
 pre {
   border: 1px solid black;
 }
+
+.window-text {
+  margin-top: 10px;
+  width: 100%;
+  height: calc(100% - 30px);
+}
+
+pre {
+  padding: 10px;
+}
