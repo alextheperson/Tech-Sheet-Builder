@@ -10,15 +10,16 @@
   </head>
   <body>
     <controls>
-      <button onclick="save();"><i class="far fa-save"></i> Save</button>
-      <button onclick="openSheet();"><i class="far fa-folder-open"></i> Open</button>
+      <button onclick="save();"><i class="fas fa-save"></i> Save</button>
+      <button onclick="openSheet();"><i class="fas fa-folder-open"></i> Open</button>
       <button onclick="newSheet();"><i class="fas fa-plus"></i> New Tech Sheet</button>
       <button onclick="toggleShow(document.getElementById('import-window'))"><i class="fas fa-file-import"></i> Import</button>
       <button onclick="toggleShow(document.getElementById('export-window'))"><i class="fas fa-file-export"></i> Export</button>
-      <button onclick="clearItems();"><i class="far fa-trash-alt"></i> Clear All Saved Data</button>
+      <button onclick="clearItems();"><i class="fas fa-trash-alt"></i> Clear All Saved Data</button>
+      <button onclick="window.open('https://github.com/alextheperson/Tech-Sheet-Builder#readme');"><i class="fas fa-question-circle"></i> Help</button>
     </controls>
     <controls>
-      <button onclick="addCue();"><i class="far fa-plus-square"></i> Add Cue</button>
+      <button onclick="addCue();"><i class="fas fa-plus-square"></i> Add Cue</button>
       <button onclick="toggleShow(document.getElementById('character-window'))"><i class="fas fa-users"></i> Characters</button>
     </controls>
     <sheet id="sheet">
