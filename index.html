@@ -21,28 +21,42 @@
     <controls>
       <button onclick="addCue();"><i class="fas fa-plus-square"></i> Add Cue</button>
       <button onclick="toggleShow(document.getElementById('character-window'))"><i class="fas fa-users"></i> Characters</button>
+      <button onclick="toggleShow(document.getElementById('entrances-window'))"><i class="fas fa-door-open"></i> Entrances</button>
     </controls>
-    <sheet id="sheet">
-      <metadata id="docTitle">Untitled</metadata><metadata id="docSaved">False</metadata>
-    </sheet>
+    <workspace>
+      <div>
+        <tabs>
+          <tab><span id="textTitleTab">script</span><span id="textSavedTab"></span> <!--<i onmouseover="this.classList.toggle('far');this.classList.toggle('fas')" onmouseout="this.classList.toggle('far');this.classList.toggle('fas')" class="far fa-window-close"></i>--></tab>
+        </tabs>
+        <div id="script"></div>
+      </div>
+      <div>
+        <tabs>
+          <tab><span id="titleTab">Untitled</span><span id="savedTab"> *</span> <!--<i onmouseover="this.classList.toggle('far');this.classList.toggle('fas')" onmouseout="this.classList.toggle('far');this.classList.toggle('fas')" class="far fa-window-close"></i>--></tab>
+        </tabs>
+        <sheet id="sheet">
+          <metadata id="docTitle">Untitled</metadata><metadata id="docSaved">False</metadata>
+        </sheet>
+      </div>
+    </workspace>
     <open class="hidden" id="file-window">
       <h3>Choose a file:</h3>
-      <button class="close-button" onclick="toggleShow(document.getElementById('file-window'))"><i class="far fa-window-close"></i></button>
+      <button class="close-button" onclick="toggleShow(document.getElementById('file-window'))"><i class="fas fa-window-close"></i></button>
       <ul id="file-chooser"></ul>
     </open>
     <open class="hidden" id="character-window">
       <h3>Characters:</h3>
-      <button class="close-button" onclick="toggleShow(document.getElementById('character-window'))"><i class="far fa-window-close"></i></button>
-      <table id="character-table">
-        <!-- <tr>
-          <td contenteditable>Telmah</td>
-          <td><button class="delete-cue" onclick="deleteCharacter(this)"><i class="far fa-window-close"></i></button></td>
-        </tr> -->
-        <tr>
-          <td>Add Character</td>
-          <td><button class="add-cue" onclick="addCharacter(this)"><i class="far fa-plus-square"></i></button></td>
-        </tr>
-      </table>
+      <button class="close-button" onclick="toggleShow(document.getElementById('character-window'))"><i class="fas fa-window-close"></i></button>
+      <ul id="character-list">
+        <li>
+          <button onclick="addCharacter(this)"><i class="fas fa-plus-square"></i> Add Character</button>
+        </li>
+      </ul>
+    </open>
+    <open class="hidden" id="entrances-window">
+      <h3>Entrances:</h3>
+      <button class="close-button" onclick="toggleShow(document.getElementById('entrances-window'))"><i class="fas fa-window-close"></i></button>
+      <ul id="entrance-list"></ul>
     </open>
     <open class="hidden" id="export-window">
       <button onclick="copyText(document.getElementById('export-location'))"><i class="fas fa-copy"></i> Copy Text</button>
@@ -51,16 +65,17 @@
         <option>HTML</option>
         <option>XML</option>
       </select>
-      <button class="close-button" onclick="toggleShow(document.getElementById('export-window'))"><i class="far fa-window-close"></i></button>
+      <button class="close-button" onclick="toggleShow(document.getElementById('export-window'))"><i class="fas fa-window-close"></i></button>
       <pre id="export-location" class="window-text">Yeet</pre>
     </open>
     <open class="hidden" id="import-window">
       <button onclick="parseText(document.getElementById('export-location'))"><i class="fas fa-check-circle"></i> Parse Tech Sheet</button>
       <button onclick="importText(document.getElementById('export-location'))" disabled><i class="fas fa-file-import"></i> Import Tech Sheet</button>
       <span>No Tech sheet to parse</span>
-      <button class="close-button" onclick="toggleShow(document.getElementById('import-window'))"><i class="far fa-window-close"></i></button>
+      <button class="close-button" onclick="toggleShow(document.getElementById('import-window'))"><i class="fas fa-window-close"></i></button>
       <textarea contenteditable class="window-text"></textarea>
     </open>
     <script src="script.js"></script>
+    <script src="rhino.js"></script>
   </body>
 </html>

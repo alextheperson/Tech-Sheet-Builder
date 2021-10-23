@@ -10,14 +10,16 @@ body, html {
 sheet {
   display: block;
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+  padding: 0px 10px;
+  margin: 0px 10px 10px 10px;
+  overflow: scroll;
+  height: calc(100vh - 154px);
 }
 
 cue {
   display: block;
   padding: 10px;
-  margin: 10px -10px;
+  margin: 0px -10px;
   border-bottom: 1px solid black;
 }
 
@@ -47,14 +49,12 @@ open {
 
 .close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  border-radius: 2px;
-  background: #f00;
-  color: white;
-  padding: 5px;
+  top: 5px;
+  right: 0px;
+  background: #0000;
   border: none;
-  font-size: 16px;
+  color: red;
+  font-size: 25px;
 }
 
 .delete-cue, .add-cue {
@@ -66,11 +66,16 @@ open {
   float: right;
 }
 
+.delete-cue.flush, .add-cue.flush {
+  float: none;
+  margin-left: 25px;
+}
+
 .delete-cue {color: #f00;}
 .add-cue {color: #0e0;}
 
-.close-button:hover {background: #e00;}
-.close-button:active {background: #a00;}
+.close-button:hover {color: #c00}
+.close-button:active {color: #700}
 
 .delete-cue:hover {color: #c00;}
 .delete-cue:active {color: #700;}
@@ -82,7 +87,7 @@ open {
 .hidden {display: none;}
 
 metadata {
-  display: block;
+  display: none;
 }
 
 #docTitle::before {content: 'Title: '}
@@ -116,4 +121,37 @@ pre {
 
 pre {
   padding: 10px;
+}
+
+li {
+  clear: both;
+}
+
+tabs {
+  margin: 0px 10px;
+  padding: 5px 0px;
+  display: block;
+}
+
+tab {
+  height: 30px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 5px;
+  width: 100px;
+}
+
+workspace {display: flex;}
+workspace div {flex: 1;}
+
+#script {
+  display: block;
+  border: 1px solid black;
+  padding: 0px 10px;
+  margin: 0px 10px 10px 10px;
+  width: calc(50vw - 10px);
+  overflow: scroll;
+  height: calc(100vh - 154px);
+  font-family: monospace;
+  font-size: 1em;
 }
