@@ -4,8 +4,8 @@ blankCue =
   Enter
   <button onclick="switchCharacter(this);">Press to Select Character</button>
   From
-  <button onclick="switchEntrance(this);">LA</button>
-  <button class="delete-cue" onclick="deleteCue(this)"><i class="fas fa-window-close"></i></button>
+  <button onclick="switchEntrance(this);">Press to Select Entrance</button>
+  <i class="far fa-window-close delete-cue" onclick="deleteCue(this)" onmouseover="this.classList.toggle('far');this.classList.toggle('fas')" onmouseout="this.classList.toggle('far');this.classList.toggle('fas')"></i>
 </cue>`
 
 blankMetadata = '<metadata id="docTitle">Untitled</metadata><metadata id="docSaved">False</metadata>'

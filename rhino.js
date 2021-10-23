@@ -730,7 +730,7 @@ script = `<h1>RHINOCEROS</h1>
 <br>The Head of the Department is about forty, very correctly dressed: dark blue suit, a rosette of the Legion of Honour, starched collar, black tie, large brown moustache. He is <b>MR. <b>PAPILLON</b></b>.
 <br><b>DUDARD</b>, thirty-five years old; grey suit; he wears black lustrine sleeves to protect his coat. He may wear spectacles. He is a quite tall, young employee with a future. If the Department Head became the Assistant Director he would take his place: <b>BOTARD</b> does not like him. <b>BOTARD</b>: former schoolteacher; short, he has a proud air, and wears a little white moustache; a brisk sixty year-old: [he knows everything, understands everything, judges everything]. He wears a Basque beret, and wears a long grey blouse during working hours; spectacles on a longish nose; a pencil behind his ear; he also wears protective sleeves at work.
 <br><b>DAISY</b>: young blonde.
-<br>Later, MRS. BOUF; a large woman of some forty to fifty years old, tearful, and breathless.
+<br>Later, <b>MRS. BOUF</b>; a large woman of some forty to fifty years old, tearful, and breathless.
 <br>[As the curtain rises, the characters therefore are standing motionless around the table, right; the Chief with index finger pointing to the newspaper; <b>DUDARD</b>, with his hand extended in <b>BOTARD</b>’S direction, seems to be saying:'so you see!’ <b>BOTARD</b>, hands in the pocket of his blouse, wears an incredulous smile and seems to say: ‘You wont take me in.‘ <b>DAISY</b>, with her typing paper in her hand seems, from her look, to be supporting <b>DUDARD</b>.
 <br>After a few brief seconds, <b>BOTARD</b> starts the attack.]
 <br><b>BOTARD</b>: It's all a lot of made-up nonsense.
@@ -879,31 +879,31 @@ script = `<h1>RHINOCEROS</h1>
 <br><b>PAPILLON</b>: Just when I needed him. [To <b>DAISY</b>:] Did he let anyone know he was ill or couldn't come in?
 <br><b>DAISY</b>: He didn't say anything to me.
 <br><b>PAPILLON</b>: [opening his door wide, and coming in] If this goes on I shall fire him. It's not the first time he's played me this trick. Up to now I haven't said anything, but it's not going on like this. Has anyone got the key to his desk?
-<br>[At this moment MRS. BOUF enters. She has been seen during the last speech coming up the stairs. She bursts through the door, out of breath, apprehensive.]
-<br><b>BERENGER</b>: Oh here's Mrs. Bouf.
-<br><b>DAISY</b>: Morning, Mrs. Bouf.
-<br>MRS. BOUF: Morning, Mr. Papillon. Good morning everyone.
+<br>[At this moment <b>MRS. BOUF</b> enters. She has been seen during the last speech coming up the stairs. She bursts through the door, out of breath, apprehensive.]
+<br><b>BERENGER</b>: Oh here's <b>MRS. BOUF</b>.
+<br><b>DAISY</b>: Morning, <b>MRS. BOUF</b>.
+<br><b>MRS. BOUF</b>: Morning, Mr. Papillon. Good morning everyone.
 <br><b>PAPILLON</b>: Well, where's your husband? What's happened to him? Is it too much trouble for him to come any more?
-<br>MRS. BOUF: [breathless] Please excuse him, my husband I mean ... he went to visit his family for the week-end. He's got a touch of flu.
+<br><b>MRS. BOUF</b>: [breathless] Please excuse him, my husband I mean ... he went to visit his family for the week-end. He's got a touch of flu.
 <br><b>PAPILLON</b>: So he's got a touch of flu, has he?
-<br>MRS. BOUF: [handing a paper to <b>PAPILLON</b>] He says so in the telegram. He hopes to be back on Wednesday ... [Almost fainting.] Could I have a glass of water ... and sit down a moment...
+<br><b>MRS. BOUF</b>: [handing a paper to <b>PAPILLON</b>] He says so in the telegram. He hopes to be back on Wednesday ... [Almost fainting.] Could I have a glass of water ... and sit down a moment...
 <br>[<b>BERENGER</b> takes his own chair centre-stage, on which she flops.]
 <br><b>PAPILLON</b>: [to <b>DAISY</b>] Give her a glass of water.
 <br><b>DAISY</b>: Yes, straightaway! [She goes to get her a glass of water, and gives it to her during the following speeches.]
 <br><b>DUDARD</b>: [to <b>PAPILLON</b>] She must have a weak heart.
 <br><b>PAPILLON</b>: It's a great nuisance that Mr. Bouf can't come. But that's no reason for you to go to pieces.
-<br>MRS. BOUF: [with difficulty] It's not ... it's ... well I was chased here all the way from the house by a rhinoceros...
+<br><b>MRS. BOUF</b>: [with difficulty] It's not ... it's ... well I was chased here all the way from the house by a rhinoceros...
 <br><b>BERENGER</b>: How many horns did it have?
 <br><b>BOTARD</b>: [guffawing] Don't make me laugh!
 <br><b>DUDARD</b>: [indignant] Give her a chance to speak!
-<br>MRS. BOUF: [making a great effort to be exact, and pointing in the direction of the staircase] It's down there, by the entrance. It seemed to want to come upstairs.
+<br><b>MRS. BOUF</b>: [making a great effort to be exact, and pointing in the direction of the staircase] It's down there, by the entrance. It seemed to want to come upstairs.
 <br>[At this moment a noise is heard. The staircase steps are seen to crumble under an obviously formidable weight. From below an anguished trumpeting is heard. As the dust clears after the collapse of the staircase, the staircase landing is seen to be hanging in space.]
 <br><b>DAISY</b>: My God!
-<br>MRS. BOUF: [seated, her hand on her heart] Oh! Ah!
-<br>[<b>BERENGER</b> runs to adminster to MRS. Bouf, patting her cheeks and making her drink.]
+<br><b>MRS. BOUF</b>: [seated, her hand on her heart] Oh! Ah!
+<br>[<b>BERENGER</b> runs to adminster to <b>MRS. BOUF</b>, patting her cheeks and making her drink.]
 <br><b>BERENGER</b>: Keep calm!
 <br>[Meanwhile <b>PAPILLON</b>, <b>DUDARD</b> and <b>BOTARD</b> rush left, jostling each other in their efforts to open the door, and stand covered in dust on the landing; the trumpetings continue to be heard.]
-<br><b>DAISY</b>: [to MRS. BOUF] Are you feeling better now, Mrs. Bouf?
+<br><b>DAISY</b>: [to <b>MRS. BOUF</b>] Are you feeling better now, <b>MRS. BOUF</b>?
 <br><b>PAPILLON</b>: [on the landing] There it is! Down there! It is one!
 <br><b>BOTARD</b>: I cant see a thing. It's an illusion.
 <br><b>DUDARD</b>: Of course it's one, down there, turning round and round.
@@ -911,7 +911,7 @@ script = `<h1>RHINOCEROS</h1>
 <br><b>BOTARD</b>: It's most strange. What can it mean?
 <br><b>DUDARD</b>: [turning towards <b>BERENGER</b>] Come and look. Come and have a look at your rhinoceros.
 <br><b>BERENGER</b>: I'm coming.
-<br>[<b>BERENGER</b> rushes to the landing, followed by <b>DAISY</b> who abandons MRS. BOUF.]
+<br>[<b>BERENGER</b> rushes to the landing, followed by <b>DAISY</b> who abandons <b>MRS. BOUF</b>.]
 <br><b>PAPILLON</b>: [to <b>BERENGER</b>] You're the rhinoceros expert—take a good look.
 <br><b>BERENGER</b>: I'm no rhinoceros expert...
 <br><b>DAISY</b>: Oh look at the way it's going round and round. It looks as if it was in pain ... what can it want?
@@ -947,65 +947,65 @@ script = `<h1>RHINOCEROS</h1>
 <br><b>PAPILLON</b>: [joking amorously and caressing <b>DAISY</b>’S cheek] I'll take you in my arms and we'll float down together.
 <br><b>DAISY</b>: [rejecting <b>PAPILLON</b>’S advances] You keep your horny hands off my face, you old pachyderm!
 <br><b>PAPILLON</b>: I was only joking!
-<br>[Meanwhile the rhinoceros has continued its trumpeting. MRS. BOUF has risen and joined the group. For a few moments she stares fixedly at the rhinoceros turning round and round below; suddenly she lets out a terrible cry.]
-<br>MRS. BOUF: My God! It can't be true!
-<br><b>BERENGER</b>: [to MRS. BOUF] What's the matter?
-<br>MRS. BOUF: It's my husband. Oh Bouf, my poor Bouf, what's happened to you?
-<br><b>DAISY</b>: [to MRS. BOUF] Are you positive?
-<br>MRS. BOUF: I recognize him, I recognize him!
+<br>[Meanwhile the rhinoceros has continued its trumpeting. <b>MRS. BOUF</b> has risen and joined the group. For a few moments she stares fixedly at the rhinoceros turning round and round below; suddenly she lets out a terrible cry.]
+<br><b>MRS. BOUF</b>: My God! It can't be true!
+<br><b>BERENGER</b>: [to <b>MRS. BOUF</b>] What's the matter?
+<br><b>MRS. BOUF</b>: It's my husband. Oh Bouf, my poor Bouf, what's happened to you?
+<br><b>DAISY</b>: [to <b>MRS. BOUF</b>] Are you positive?
+<br><b>MRS. BOUF</b>: I recognize him, I recognize him!
 <br>[The rhinoceros replies with a violent but tender trumpeting.]
 <br><b>PAPILLON</b>: Well! That's the last straw. This time he's fired for good!
 <br><b>DUDARD</b>: Is he insured?
 <br><b>BOTARD</b>: [aside] I understand it all now...
 <br><b>DAISY</b>: How can you collect insurance in a case like this?
-<br>MRS. BOUF: [fainting into <b>BERENGER</b>’S arms] Oh! My God!
+<br><b>MRS. BOUF</b>: [fainting into <b>BERENGER</b>’S arms] Oh! My God!
 <br><b>BERENGER</b>: Oh!
 <br><b>DAISY</b>: Carry her over here!
-<br>[<b>BERENGER</b>, helped by <b>DUDARD</b> and <b>DAISY</b>, installs MRS. BOUF in a chair.]
-<br><b>DUDARD</b>: [while they are carrying her] Don't upset yourself, Mrs. Bouf.
-<br>MRS. BOUF: Ah! Oh!
+<br>[<b>BERENGER</b>, helped by <b>DUDARD</b> and <b>DAISY</b>, installs <b>MRS. BOUF</b> in a chair.]
+<br><b>DUDARD</b>: [while they are carrying her] Don't upset yourself, <b>MRS. BOUF</b>.
+<br><b>MRS. BOUF</b>: Ah! Oh!
 <br><b>DAISY</b>: Maybe it can all be put right...
 <br><b>PAPILLON</b>: [to <b>DUDARD</b>] Legally, what can be done?
 <br><b>DUDARD</b>: You need to get a solicitor's advice.
 <br><b>BOTARD</b>: [following the procession, raising his hands to heaven] It's the sheerest madness! What a society!
-<br>[They crowd round MRS. BOUF, pinching her cheeks; she opens her eyes,} emits an ‘Ah’ and closes them again; they continue to pinch her cheeks as <b>BOTARD</b> speaks:]
+<br>[They crowd round <b>MRS. BOUF</b>, pinching her cheeks; she opens her eyes,} emits an ‘Ah’ and closes them again; they continue to pinch her cheeks as <b>BOTARD</b> speaks:]
 <br>You can be certain of one thing: I shall report this to my union. I don't desert a colleague in the hour of need. It won't be hushed up.
-<br>MRS. BOUF: [coming to] My poor darling, I can't leave him like that, my poor darling. [A trumpeting is heard.] He's calling me. [Tenderly] He's calling me.
-<br><b>DAISY</b>: Feeling better now, Mrs. Bouf?
+<br><b>MRS. BOUF</b>: [coming to] My poor darling, I can't leave him like that, my poor darling. [A trumpeting is heard.] He's calling me. [Tenderly] He's calling me.
+<br><b>DAISY</b>: Feeling better now, <b>MRS. BOUF</b>?
 <br><b>DUDARD</b>: She's picking up a bit.
-<br><b>BOTARD</b>: [to MRS. BOUF] You can count on the union's support. Would you like to become a member of the committee?
+<br><b>BOTARD</b>: [to <b>MRS. BOUF</b>] You can count on the union's support. Would you like to become a member of the committee?
 <br><b>PAPILLON</b>: Work's going to be delayed again. What about the post, Miss Daisy?
 <br><b>DAISY</b>: I want to know first how we're going to get out of here.
 <br><b>PAPILLON</b>: It is a problem. Through the window.
-<br>[They all go to the window with the exception of MRS. BOUF slumped in her chair and <b>BOTARD</b> who stays centre-stage.]
+<br>[They all go to the window with the exception of <b>MRS. BOUF</b> slumped in her chair and <b>BOTARD</b> who stays centre-stage.]
 <br><b>BOTARD</b>: I know where it came from.
 <br><b>DAISY</b>: [at window] It's too high.
 <br><b>BERENGER</b>: Perhaps we ought to call the firemen, and get them to bring ladders!
 <br><b>PAPILLON</b>: Miss Daisy, go to my office and telephone the fire brigade. [He makes as if to follow her.]
 <br>[<b>DAISY</b> goes out up-stage and one hears her voice on the telephone say: ‘Hello, hello, is that the Fire Brigade?’ followed by a vague sound of telephone conversation.]
-<br>MRS. BOUF: [rising suddenly] I can’t desert him, I can't desert him now!
+<br><b>MRS. BOUF</b>: [rising suddenly] I can’t desert him, I can't desert him now!
 <br><b>PAPILLON</b>: If you want to divorce him ... you'd be perfectly justified.
 <br><b>DUDARD</b>: You'd be the injured party.
-<br>MRS. BOUF: No! Poor thing! This is not the moment for that. I won't abandon my husband in such a state.
+<br><b>MRS. BOUF</b>: No! Poor thing! This is not the moment for that. I won't abandon my husband in such a state.
 <br><b>BOTARD</b>: You're a good woman.
-<br><b>DUDARD</b>: [to MRS. BOUF] But what are you going to do?
+<br><b>DUDARD</b>: [to <b>MRS. BOUF</b>] But what are you going to do?
 <br>[She runs left towards the landing.]
 <br><b>BERENGER</b>: Watch out!
-<br>MRS. BOUF: I can't leave him, I can't leave him now!
+<br><b>MRS. BOUF</b>: I can't leave him, I can't leave him now!
 <br><b>DUDARD</b>: Hold her back!
-<br>MRS. BOUF: I'm taking him home!
+<br><b>MRS. BOUF</b>: I'm taking him home!
 <br><b>PAPILLON</b>: What's she trying to do?
-<br>MRS. BOUF: [preparing to jump; on the edge of the landing] I'm coming my darling, I'm coming!
+<br><b>MRS. BOUF</b>: [preparing to jump; on the edge of the landing] I'm coming my darling, I'm coming!
 <br><b>BERENGER</b>: She's going to jump.
 <br><b>BOTARD</b>: It's no more than her duty.
 <br><b>DUDARD</b>: She can't do that.
-<br>[Everyone with the exception of <b>DAISY</b>, who is still telephoning, is near to MRS. BOUF on the landing; she jumps; <b>BERENGER</b> who tries to restrain her, is left with her skirt in his hand.]
+<br>[Everyone with the exception of <b>DAISY</b>, who is still telephoning, is near to <b>MRS. BOUF</b> on the landing; she jumps; <b>BERENGER</b> who tries to restrain her, is left with her skirt in his hand.]
 <br><b>BERENGER</b>: I couldn't hold her back.
 <br>[The rhinoceros is heard from below, tenderly trumpeting.]
-<br>VOICE OF MRS. BOUF: Here I am, my sweet, I'm here now.
+<br>VOICE OF <b>MRS. BOUF</b>: Here I am, my sweet, I'm here now.
 <br><b>DUDARD</b>: She landed on his back in the saddle.
 <br><b>BOTARD</b>: She's a good rider.
-<br>VOICE OF MRS. BOUF: Home now, dear, let's go home.
+<br>VOICE OF <b>MRS. BOUF</b>: Home now, dear, let's go home.
 <br><b>DUDARD</b>: They're off at a gallop.
 <br>[<b>DUDARD</b>, <b>BOTARD</b>, <b>BERENGER</b>, <b>PAPILLON</b> come back on-stage and go to the window.]
 <br><b>BERENGER</b>: They're moving fast.
@@ -1016,7 +1016,7 @@ script = `<h1>RHINOCEROS</h1>
 <br><b>BOTARD</b>: [as if concluding an interior monologue] A fine state of affairs!
 <br><b>DAISY</b>: . . . I had trouble getting the firemen!
 <br><b>PAPILLON</b>: Are there fires all over the place, then?
-<br><b>BERENGER</b>: I agree with Mr. Botard. Mrs. Bouf's attitude is very moving; she's a woman of feeling.
+<br><b>BERENGER</b>: I agree with Mr. Botard. <b>MRS. BOUF</b>'s attitude is very moving; she's a woman of feeling.
 <br><b>PAPILLON</b>: It means one employee less, who has to be replaced.
 <br><b>BERENGER</b>: Do you really think he's no use to us any more?
 <br><b>DAISY</b>: No, there aren't any fires, the firemen have been called out for other rhinoceroses.
@@ -1306,8 +1306,8 @@ script = `<h1>RHINOCEROS</h1>
 <br><b>JOHN</b>: [off] How do you know?
 <br><b>BERENGER</b>: Well, everything led one to suppose so.
 <br><b>JOHN</b>: And what if he did do it on purpose? Eh? What if he did it on purpose?
-<br><b>BERENGER</b>: I'd be very surprised. At any rate, Mrs. Bouf didn't seem to know about it...
-<br><b>JOHN</b>: [in a very hoarse voice] Ah, ah, ah! Fat old Mrs. Bouf. She's just a fool!
+<br><b>BERENGER</b>: I'd be very surprised. At any rate, <b>MRS. BOUF</b> didn't seem to know about it...
+<br><b>JOHN</b>: [in a very hoarse voice] Ah, ah, ah! Fat old <b>MRS. BOUF</b>. She's just a fool!
 <br><b>BERENGER</b>: Well fool or no fool...
 <br><b>JOHN</b>: [he enters swiftly, takes off his jacket, and throws it on the bed. <b>BERENGER</b> discreetly averts his gaze. <b>JOHN</b>, whose back and chest are now green, goes back into the bathroom. As he walks in and out:] Bouf never let his wife know what he was up to...
 <br><b>BERENGER</b>: You're wrong there, John—it was a very united family.
