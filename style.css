@@ -30,7 +30,6 @@ sheet {
   padding: 0px 10px;
   margin: 0px 10px 10px 10px;
   overflow: scroll;
-  height: calc(100vh - 154px);
 }
 
 cue {
@@ -93,13 +92,6 @@ metadata {
 #docTitle::before {content: 'Title: '}
 #docSaved::before {content: 'Saved? '}
 
-table, tr, td {
-  border: 1px solid var(--foreground-accent);
-  border-collapse: collapse;
-  padding: 5px;
-  background: var(--background);
-}
-
 pre {
   border: 1px solid var(--foreground-accent);
 }
@@ -142,9 +134,13 @@ workspace div {flex: 1;}
   margin: 0px 10px 10px 10px;
   width: calc(50vw - 10px);
   overflow: scroll;
-  height: calc(100vh - 154px);
   font-family: monospace;
   font-size: 1em;
+}
+
+
+sheet, #script {
+  height: calc(100vh - 209px);
 }
 
 h1 {color: var(--foreground-accent)}
